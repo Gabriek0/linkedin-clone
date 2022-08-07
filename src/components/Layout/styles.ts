@@ -5,6 +5,8 @@ export const Container = styled.div`
   width: 100%;
 
   main {
+    margin-top: 3rem;
+
     .left-column,
     .right-column {
       display: none;
@@ -16,6 +18,8 @@ export const Container = styled.div`
       display: flex;
       justify-content: center;
       margin: 0 30px;
+
+      margin-top: 5rem;
 
       .left-column,
       .right-column {

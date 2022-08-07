@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   * {
@@ -16,16 +16,17 @@ export default createGlobalStyle`
   }
   :root {
     --color-header: #283e4a;
-    --color-linkedin: #0077b5;
+    --color-linkedin: #0a66c2;
     --color-input: #e1e9ee;
     --color-icons: #c7d1d8;
     --color-hashtag: #7a8b98;
-    --color-background: #f5f5f5;
+    --color-background: #f3f2ef;
     --color-ad-text: #434649;
     --color-panel: #fff;
     --color-link: #0073b1;
     --color-black: rgba(0,0,0,.9);
     --color-gray: rgba(0,0,0,.6);
+    --color-button-nav: #666666;
     --color-separator: rgba(0,0,0,0.15);
     --color-white: #fff;
   }
